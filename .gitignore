@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Deep Learning / Model Weights
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.bin
+*.safetensors
+
+# Project Specific Data & Outputs
+# Ignore datasets and processed data
+dat/
+# Ignore training results, logs, and visualizations generated dynamically
+results/
+logs/
+trees/
+# Ignore tracking folders
+mlruns/
+wandb/
+
+# Data Files
+*.csv
+*.tsv
+*.json
+*.pdf
+# Exception: keep standard configuration files if you ever create them
+!package.json
+!tsconfig.json
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+[Tt]humbs.db
