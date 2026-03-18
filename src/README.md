@@ -1,5 +1,7 @@
 # DeepCausalPV: Adverse Drug Effect Detection from FAERS Data
 
+> **Note:** This repository is based on the codes and data from [https://github.com/XingqiaoWang/DeepCausalPV-master](https://github.com/XingqiaoWang/DeepCausalPV-master).
+
 Welcome to the **DeepCausalPV** source code repository. This project aims to detect and analyze adverse drug effects using data from the FDA Adverse Event Reporting System (FAERS). By leveraging state-of-the-art transformer models (ALBERT, BioBERT) alongside Large Language Models (LLaMA, DeepSeek API), we identify critical causal effects associated with clinical terms (e.g., age, dose, indication, secondary suspect drugs).
 
 ---
